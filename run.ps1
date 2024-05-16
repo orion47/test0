@@ -1,7 +1,7 @@
 # Define the script that checks for internet connectivity
 $script = {
     while (-not (Test-Connection -ComputerName google.com -Count 1 -Quiet)) {
-        Start-Sleep -Seconds 30  # Wait for 30 seconds before checking again
+        Start-Sleep -Seconds 60  # Wait for 60 seconds before checking again
     }
     # Internet connection detected, execute your desired action here
     Write-Host ""C:\Program Files (x86)\Sophos\Connect\sccli" enable -n 115.246.27.108"

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Sophos\Connect\sccli" enable -n 115.246.27.108

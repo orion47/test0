@@ -25,7 +25,6 @@
   </Triggers>
   <Principals>
     <Principal id="Author">
-      <UserId>*</UserId>
       <LogonType>InteractiveToken</LogonType>
       <RunLevel>LeastPrivilege</RunLevel>
     </Principal>
